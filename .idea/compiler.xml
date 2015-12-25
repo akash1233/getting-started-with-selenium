@@ -23,11 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="getting-started-with-selenium" />
+        <module name="LocalSeleniumTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="getting-started-with-selenium" target="1.7" />
+      <module name="getting-started-with-selenium" target="1.5" />
+      <module name="LocalSeleniumTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
-
